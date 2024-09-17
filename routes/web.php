@@ -7,6 +7,6 @@ Route::get('/', function () {
 });
 
 Route::get('/workers', function () {
-    dd();
-    return
+    dd('jelel YEEAH');
+    return'This is blabla';
 });
