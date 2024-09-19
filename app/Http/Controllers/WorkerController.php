@@ -47,6 +47,9 @@ class WorkerController extends Controller
     }
     public function delete()
     {
-        return 'This is show action of Worker Controller';
+        $worker = Worker::find(3);
+
+        $worker->delete();
+        return 'Was deleted';
     }
 }
